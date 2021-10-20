@@ -1,0 +1,38 @@
+.login {
+  width: 90%;
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  text-align: center;
+}
+
+h1 {
+  color: indigo;
+}
+
+.error {
+  color: red;
+}
+
+.success {
+  color: green;
+}
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions .toggle {
+  margin-top: 1rem;
+  background-color: transparent;
+  color: #9f5ccc;
+  border: none;
+  padding: 0.15rem 1.5rem;
+}
+
+.actions .toggle:hover {
+  background-color: transparent !important;
+}
